@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 
 from numpy.linalg import inv
 
-data = np.loadtxt('data/ex1data2.txt', delimiter=',')
+data = np.loadtxt('data/data.txt', delimiter=',')
 X = np.c_[data[:,0], data[:, 1]]
 y = np.c_[data[:,2]]
 m = y.size
